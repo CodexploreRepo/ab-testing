@@ -1,6 +1,4 @@
-# Statistical Tests
-
-## Levene Test
+# Levene Test
 
 - `Usages`: Levene Test to check whether the variances are **homogeneous**, i.e. whether there is equality of variance?
   - In order words, Levene test is used to test the Null hypothesis that the samples to be compared come from a population with the same variance.
@@ -9,7 +7,7 @@
   - If the p-value for the Levene test is $>0.05$, then the variances are not significantly different from each other (i.e., the homogeneity assumption of the variance is met).
   - If the p-value for the Levene's test is $<0.05$, then there is a significant difference between the variances.
 - :star: **Note**: stable against violations of the normal distribution.
-<p align="center"><img src="../assets/img/levene_test_en.png" width=200><br>Example of "Different mean, same variance" & "Same mean, different variance"</p>
+<p align="center"><img src="../../assets/img/levene_test_en.png" width=200><br>Example of "Different mean, same variance" & "Same mean, different variance"</p>
 
 - There are 3 types of Levene’s statistics:
   - If a distribution has a **longer-tailed** distribution like the Cauchy distribution then we use a `trimmed mean`.

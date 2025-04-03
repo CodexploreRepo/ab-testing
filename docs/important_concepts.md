@@ -3,14 +3,16 @@
 ## Inferential Statistical Test
 
 - When you conduct an inferential statistical test, you are often comparing two hypotheses:
-  - `Null hypothesis`: this hypothesis predicts that the program/treatment will not have an effect on your variable of interest.
+  - `Null hypothesis` this hypothesis predicts that the program/treatment will not have an effect on your variable of interest.
     - For example, if you are measuring students’ level of concern for the environment before and after a field trip, the null hypothesis is that their level of concern will remain the same.
-  - `Alternative hypothesis`:This hypothesis predicts that you will find a difference between groups.
+  - `Alternative hypothesis` This hypothesis predicts that you will find a difference between groups.
     - Using the example above, the alternative hypothesis is that students’ post-trip level of concern for the environment will differ from their pre-trip level of concern.
 - Statistical tests look for evidence that you can reject the null hypothesis and conclude that the program/treatment had an effect.
 - Example of inferential statistics: independent t-test, paired t-test, ANOVA, regression, etc.
 
 ### Error Types
+
+<p align="center"><img src="../assets/img/ab-test-type-i-type-ii-error.png" width=300></p>
 
 - `Type I Error`: With any statistical test, however, there is always the possibility that you will find a difference between groups when one does not actually exist.
 - `Type II Error`: when a difference does exist, but the test will not be able to identify it.
