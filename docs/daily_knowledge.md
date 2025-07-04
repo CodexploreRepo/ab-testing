@@ -1,5 +1,29 @@
 # Daily Knowledge
 
+## Day 3
+
+### z-score
+
+What is Z-Score?
+
+- Z-score is a statistical measure that describes a value's position relative to the mean of a group of values.
+- It is expressed in terms of standard deviations from the mean.
+- The Z-score indicates how many standard deviations an element is from the mean.
+  $$z = \frac{X-\mu}{\sigma}$$
+- Where:
+  - $z$: z-Score
+  - $X$: Value of Element
+  - $\mu$: Population Mean
+  - $\sigma$: Population Standard Deviation
+- For example, a Z-score of 2 indicates the value is 2 standard deviations away from the mean.
+
+### Boostrap Sampling
+
+- **Bootstrap sampling** (Sampling with Replacement) is a resampling method that involves repeatedly drawing samples from a dataset with replacements to estimate the sampling distribution of a statistic.
+- [Notebook](../notebooks/00-boostrap-sampling.ipynb)
+
+<p align="center"><img src="../assets/img/bootstrap-scheme.png" width=500></p>
+
 ## Day 2
 
 ### AB Testing Setup
