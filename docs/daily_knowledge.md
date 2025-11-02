@@ -2,6 +2,12 @@
 
 ## Day 4
 
+- **t-test** the data should be normally distributed
+  - _One-sample t-test_ (determine if an unknown population mean does not equal a claimed value by taking a sample): `t_stat, p_val = stats.ttest_1samp(a=x, popmean = mu)`
+  - _Two-sample t-test_ (test for differences in sample means between 2 groups) using t-tests & extend this to more than two groups using ANOVA & pairwise t-test
+    - Normally distributed + equal variance: `t_stat, p_val = stats.ttest_ind(x, y)`
+    - Normally distributed + not equal variance (Welch’s t-test): `t_stat, p_val = stats.ttest_ind(x, y, equal_var = False)`
+  - _Paired t-test_: test for same group at different periods `t_stat, p_val = stats.ttest_rel(x,y)`
 - Understanding the test results
   - The value of t-statistic comes out to be 4.69 which seems to be very far from the mean of zero in a t-distribution.
   - The p-value is less than the default significance level of 0.05, which indicates that the probability of such an extreme outcome is close to zero and that the null hypothesis can be rejected.
