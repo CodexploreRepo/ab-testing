@@ -2,6 +2,20 @@
 
 ## Day 3
 
+### t-distribution
+
+- The test statistic, t, follows a t-distribution. t-distributions have a parameter called the **degrees of freedom**, or df for short.
+- As we increase the degrees of freedom, the t-distribution gets closer to the normal distribution. In fact, a normal distribution is a t-distribution with infinite degrees of freedom.
+
+<p align="center"><img src="../assets/img/t-distribution-dof.png" width=500></p>
+
+#### DoF calculation
+
+- Suppose our dataset has 5 independent observations, and that four of the values are 2, 6, 8, and 5. Suppose we also know the sample mean is 5. With this knowledge, the fifth value is no longer independent.
+- In our two sample case, there are as many degrees of freedom as observations (number of childs $n_{child}$ + number of aldult $n_{adult}$), minus 2 because we know two sample statistics, the means for each group.
+
+<p align="center"><img src="../assets/img/t-distribution-dof-2.png" width=500></p>
+
 ### z-score
 
 What is Z-Score?

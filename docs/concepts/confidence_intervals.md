@@ -38,7 +38,7 @@ The `Margin of Error (MoE)` accounts for **variability** and reflects how much t
 - $\mu$ represents the **population mean**, which is the true average of a characteristic for the entire population.
 - $\bar{X}$ represents the **sample mean**, which is the average calculated from a sample of the population and serves as an estimate of the population mean ($\mu$)
 
-<p align="center"><img src="../assets/img/ci_population_mean_formula.png" width=600><br>Equation for calculating confidence interval for the population mean</p>
+<p align="center"><img src="../../assets/img/ci_population_mean_formula.png" width=600><br>Equation for calculating confidence interval for the population mean</p>
 
 - Example: a small e-commerce company is currently measuring the app load time for a sample of `n = 25` users. We want a confidence interval of 95%. We found that,
   - Sample mean $\bar{X}=3$ seconds
@@ -68,3 +68,18 @@ moe = t_critical*(s/math.sqrt(n)) # 0.206
 - The **resulting confidence interval** provides a range of values where the true difference between the population means likely lies, with a specified level of confidence (e.g., 95%).
   - If $\mu_1 − \mu_2 = 0$, it implies that there is no significant difference between the two population means.
     - In other words, the two groups are **statistically similar** with respect to the measured variable.
+
+## CI Calculation
+
+### Quantile Method
+
+- Example 1:
+
+```Python
+# Calculate 95% confidence interval using quantile method
+lower = np.quantile(late_shipments_boot_distn, 0.025)
+upper = np.quantile(late_shipments_boot_distn, 0.975)
+
+# Print the confidence interval
+print((lower, upper))
+```
