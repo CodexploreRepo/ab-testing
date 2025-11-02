@@ -25,3 +25,9 @@
 - Create the new conda environment (if not exist): `conda create -n ab_testing`
 - Activate the environment: `conda activate ab_testing`
 - Install dependencies:
+
+## Reference
+
+- [Hypothesis Testing in Python](https://app.datacamp.com/learn/courses/hypothesis-testing-in-python)
+- [Customer Analytics and A/B Testing in Python](https://app.datacamp.com/learn/courses/customer-analytics-and-ab-testing-in-python)
+- [Bayesian Data Analysis in Python](https://app.datacamp.com/learn/courses/bayesian-data-analysis-in-python)

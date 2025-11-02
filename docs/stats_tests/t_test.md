@@ -16,6 +16,13 @@
 
 <p align="center"><img src="../../assets/img/t-distribution-dof-2.png" width=500></p>
 
+## Assumptions of the t-test
+
+- The t-test relies on certain assumptions to provide valid results:
+  - **Normality of the Data**: The t-test assumes that the data in each group are approximately normally distributed. This is especially important when dealing with small sample sizes. If the data are not normally distributed, the t-test results may be unreliable.
+  - **Homogeneity of Variances**: For an independent two-sample t-test, the variances of the two groups being compared are assumed to be equal. This assumption ensures that the t-test correctly accounts for variability within each group. If the variances are not equal, it can affect the accuracy of the test.
+  - **Independence of Observations**: The observations within each group should be independent. This means that the value of one observation should not influence or be related to the value of another observation. Violation of this assumption can lead to incorrect conclusions.
+
 ## Two-sample t-test
 
 <p align="center"><img src="../../assets/img/2-sample-test.png" width=700></p>
