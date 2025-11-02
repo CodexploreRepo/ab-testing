@@ -1,5 +1,16 @@
 # Daily Knowledge
 
+## Day 4
+
+- Understanding the test results
+  - The value of t-statistic comes out to be 4.69 which seems to be very far from the mean of zero in a t-distribution.
+  - The p-value is less than the default significance level of 0.05, which indicates that the probability of such an extreme outcome is close to zero and that the null hypothesis can be rejected.
+
+```Python
+# t-statistic = 4.689539773390642
+# p-value = 0.0001407967502139183
+```
+
 ## Day 3
 
 ### t-distribution

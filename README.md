@@ -5,7 +5,8 @@
 - [Hypothesis Testing Fundamentals](./docs/hypothesis_testing_fundamentals.md)
 - **Parametric** Tests: t-test, z-test, ANOVA **assuming a normal distribution** & require sufficiently large sample size
   - [**t-test**](./docs/stats_tests/t_test.md)
-    - _Unpaired t-test_ (Test for differences in sample means between two groups) using t-tests & extend this to more than two groups using ANOVA & pairwise t-test
+    - _One-sample t-test_ (determine if an unknown population mean does not equal a claimed value by taking a sample)
+    - _Two-sample t-test_ (test for differences in sample means between 2 groups) using t-tests & extend this to more than two groups using ANOVA & pairwise t-test
     - _Paired t-test_: test for same group at different periods
   - [Proportion Test (**z-test**)](./docs/stats_tests/proportion_ztest.md): test differences in sample proportions between two groups
   - [**Chi-square**: test of independence & goodness of fit test](./docs/stats_tests/chi_square_test.md)
